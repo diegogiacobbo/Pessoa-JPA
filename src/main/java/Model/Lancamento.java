@@ -16,7 +16,7 @@ import javax.persistence.TemporalType;
 import javax.persistence.Entity;
 
 @Entity
-@Table(name = "lancamento")
+@Table
 public class Lancamento {
 	private Long id;
 	private Pessoa pessoa;
