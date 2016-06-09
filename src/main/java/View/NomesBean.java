@@ -2,11 +2,12 @@ package View;
 
 import java.util.ArrayList;
 
+import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
+
 
 @ManagedBean
-@RequestScoped
+@ApplicationScoped
 public class NomesBean {
 	private String nome;
 	private ArrayList<String> nomes = new ArrayList<>();
