@@ -1,10 +1,9 @@
-package View;
+package Controller;
 
 import java.util.ArrayList;
 
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
-
 
 @ManagedBean
 @ApplicationScoped
