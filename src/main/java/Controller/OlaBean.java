@@ -1,4 +1,4 @@
-package View;
+package Controller;
 
 import javax.faces.bean.ManagedBean;
 
