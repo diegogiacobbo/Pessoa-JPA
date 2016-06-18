@@ -8,6 +8,7 @@ public class OlaBean {
 	private String sobrenome;
 	private String nomeCompleto;
 
+	
 	public void dizerOla() {
 		this.nomeCompleto = this.nome.toUpperCase() 
 			+ " " + this.sobrenome;
